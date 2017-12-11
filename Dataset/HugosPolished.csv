@@ -1,0 +1,272 @@
+"","Year","Author","Title","Publisher.s.","Winner","Locus.data","Nebula.data","Campbell.data","Goodreads.Avg.Rating","Goodreads.Number.of.Ratings"
+"1",1966,"Frank Herbert","Dune","Chilton Company",TRUE,0,2,0,4.19,531443
+"2",1966,"Roger Zelazny","...And Call Me Conrad (also known as This Immortal)","The Magazine of Fantasy & Science Fiction",TRUE,0,0,0,NA,NA
+"3",1966,"John Brunner","The Squares of the City","Ballantine Books",FALSE,0,0,0,3.38,472
+"4",1966,"Robert A. Heinlein","The Moon Is a Harsh Mistress[Note 2]","If",FALSE,0,0,0,NA,NA
+"5",1966,"Edward E. Smith","Skylark DuQuesne","If",FALSE,0,0,0,NA,NA
+"6",1967,"Robert A. Heinlein","The Moon Is a Harsh Mistress[Note 2]","If",TRUE,0,0,0,NA,NA
+"7",1967,"Samuel R. Delany","Babel-17","Ace Books",FALSE,0,2,0,3.78,8844
+"8",1967,"Randall Garrett","Too Many Magicians","Analog Science Fact & Fiction",FALSE,0,0,0,3.92,786
+"9",1967,"Daniel Keyes","Flowers for Algernon","Harcourt Trade Publishers",FALSE,0,2,0,4.07,340564
+"10",1967,"James H. Schmitz","The Witches of Karres","Chilton Company",FALSE,0,0,0,4.17,2052
+"11",1967,"Thomas Burnett Swann","Day of the Minotaur","Ace Books",FALSE,0,0,0,3.75,118
+"12",1968,"Roger Zelazny","Lord of Light","Doubleday",TRUE,0,1,0,4.1,22158
+"13",1968,"Samuel R. Delany","The Einstein Intersection","Ace Books",FALSE,0,2,0,3.58,3515
+"14",1968,"Piers Anthony","Chthon","Ballantine Books",FALSE,0,1,0,3.33,1400
+"15",1968,"Chester Anderson","The Butterfly Kid","Pyramid Books",FALSE,0,0,0,3.84,97
+"16",1968,"Robert Silverberg","Thorns","Ballantine Books",FALSE,0,1,0,3.9,6501
+"17",1969,"John Brunner","Stand on Zanzibar","Doubleday",TRUE,0,1,0,3.96,11914
+"18",1969,"Alexei Panshin","Rite of Passage","Ace Books",FALSE,0,2,0,3.87,2782
+"19",1969,"Samuel R. Delany","Nova","Doubleday",FALSE,0,0,0,3.83,5182
+"20",1969,"R. A. Lafferty","Past Master","Ace Books",FALSE,0,1,0,3.79,454
+"21",1969,"Clifford D. Simak","The Goblin Reservation","Galaxy Science Fiction",FALSE,0,0,0,4.01,2460
+"22",1970,"Ursula K. Le Guin","The Left Hand of Darkness","Ace Books",TRUE,0,2,0,4.2,10
+"23",1970,"Robert Silverberg","Up the Line","Ballantine Books",FALSE,0,1,0,3.74,1266
+"24",1970,"Piers Anthony","Macroscope","Avon Publications",FALSE,0,0,0,3.77,2495
+"25",1970,"Kurt Vonnegut","Slaughterhouse-Five","Delacorte Press",FALSE,0,1,0,4.06,899857
+"26",1970,"Norman Spinrad","Bug Jack Barron","Avon Publications",FALSE,0,1,0,3.79,1544
+"27",1971,"Larry Niven","Ringworld","Ballantine Books",TRUE,0,2,0,3.96,83404
+"28",1971,"Poul Anderson","Tau Zero","Doubleday",FALSE,0,0,0,3.85,7869
+"29",1971,"Robert Silverberg","Tower of Glass","Charles Scribner's Sons",FALSE,0,1,0,3.73,1325
+"30",1971,"Wilson Tucker","The Year of the Quiet Sun","Ace Books",FALSE,0,1,0,3.67,505
+"31",1971,"Hal Clement","Star Light","Analog Science Fact & Fiction",FALSE,0,0,0,3.37,165
+"32",1972,"Philip José Farmer","To Your Scattered Bodies Go","Putnam Publishing Group",TRUE,0,0,0,NA,NA
+"33",1972,"Ursula K. Le Guin","The Lathe of Heaven","Amazing Stories",FALSE,0,1,0,4.09,34614
+"34",1972,"Anne McCaffrey","Dragonquest","Ballantine Books",FALSE,0,0,0,4.67,12
+"35",1972,"Roger Zelazny","Jack of Shadows","The Magazine of Fantasy & Science Fiction",FALSE,0,0,0,4.01,4901
+"36",1972,"Robert Silverberg","A Time of Changes","Galaxy Science Fiction",FALSE,0,2,0,3.71,2391
+"37",1973,"Isaac Asimov","The Gods Themselves","Galaxy Science Fiction",TRUE,0,2,0,4.08,40092
+"38",1973,"David Gerrold","When HARLIE Was One","Ballantine Books",FALSE,0,1,0,3.92,943
+"39",1973,"Poul Anderson","There Will Be Time","Signet Books",FALSE,0,0,0,3.76,1222
+"40",1973,"Robert Silverberg","The Book of Skulls","Charles Scribner's Sons",FALSE,0,1,0,3.68,2355
+"41",1973,"Robert Silverberg","Dying Inside","Galaxy Science Fiction",FALSE,0,1,0,3.86,4494
+"42",1973,"Clifford D. Simak","A Choice of Gods","Putnam Publishing Group",FALSE,0,0,0,3.68,960
+"43",1974,"Arthur C. Clarke","Rendezvous with Rama","Galaxy Science Fiction",TRUE,0,2,2,4.06,104229
+"44",1974,"Robert A. Heinlein","Time Enough for Love","Putnam Publishing Group",FALSE,0,1,0,3.96,27643
+"45",1974,"Larry Niven","Protector","Ballantine Books",FALSE,1,0,0,4.06,8125
+"46",1974,"Poul Anderson","The People of the Wind","Analog Science Fact & Fiction",FALSE,0,1,0,3.73,639
+"47",1974,"David Gerrold","The Man Who Folded Himself","Random House",FALSE,0,1,0,3.8,3574
+"48",1975,"Ursula K. Le Guin","The Dispossessed","Harper & Row",TRUE,0,2,1,4.18,54146
+"49",1975,"Poul Anderson","Fire Time","Doubleday",FALSE,0,0,0,3.34,265
+"50",1975,"Philip K. Dick","Flow My Tears, the Policeman Said","Doubleday",FALSE,0,1,2,3.93,25747
+"51",1975,"Larry Niven","The Mote in God's Eye","Simon & Schuster",FALSE,0,1,0,4.06,52412
+"52",1975,"Jerry Pournelle","","",FALSE,0,0,0,3.81,1714
+"53",1975,"Christopher Priest","Inverted World","Galaxy Science Fiction",FALSE,0,0,0,3.89,5153
+"54",1976,"Joe Haldeman","The Forever War","St. Martin's Press",TRUE,0,2,0,4.15,102876
+"55",1976,"Roger Zelazny","Doorways in the Sand","Analog Science Fact & Fiction",FALSE,0,1,0,3.97,3050
+"56",1976,"Larry Niven","Inferno","Galaxy Science Fiction",FALSE,0,1,0,3.82,4653
+"57",1976,"Jerry Pournelle","","",FALSE,0,0,0,3.81,1714
+"58",1976,"Alfred Bester","The Computer Connection (also known as The Indian Giver)","Berkley Putnam",FALSE,0,1,0,NA,NA
+"59",1976,"Robert Silverberg","The Stochastic Man","Harper & Row",FALSE,0,1,1,3.61,883
+"60",1977,"Kate Wilhelm","Where Late the Sweet Birds Sang","Harper & Row",TRUE,0,1,1,3.87,7125
+"61",1977,"Joe Haldeman","Mindbridge","St. Martin's Press",FALSE,0,0,0,3.74,1789
+"62",1977,"Frank Herbert","Children of Dune","Analog Science Fact & Fiction",FALSE,0,0,0,3.9,80526
+"63",1977,"Frederik Pohl","Man Plus","The Magazine of Fantasy & Science Fiction",FALSE,0,2,1,3.74,6273
+"64",1977,"Robert Silverberg","Shadrach in the Furnace","Analog Science Fact & Fiction",FALSE,0,1,0,3.57,632
+"65",1978,"Frederik Pohl","Gateway","Galaxy Science Fiction",TRUE,0,2,2,4.07,32305
+"66",1978,"Marion Zimmer Bradley","The Forbidden Tower","DAW Books",FALSE,0,0,0,4.06,2654
+"67",1978,"Larry Niven","Lucifer's Hammer","Playboy Press",FALSE,0,0,0,3.98,35201
+"68",1978,"Jerry Pournelle","","",FALSE,0,0,0,3.81,1714
+"69",1978,"Gordon R. Dickson","Time Storm","St. Martin's Press",FALSE,0,0,0,3.78,932
+"70",1978,"George R. R. Martin","Dying of the Light","Analog Science Fact & Fiction",FALSE,0,0,0,3.55,3883
+"71",1979,"Vonda N. McIntyre","Dreamsnake","Houghton Mifflin",TRUE,0,2,0,3.85,7212
+"72",1979,"Anne McCaffrey","The White Dragon","Del Rey Books",FALSE,0,0,0,4.87,15
+"73",1979,"C. J. Cherryh","The Faded Sun: Kesrith","Galaxy Science Fiction",FALSE,0,1,0,3.98,1819
+"74",1979,"Tom Reamy","Blind Voices","Berkley Putnam",FALSE,0,1,0,3.99,191
+"75",1980,"Arthur C. Clarke","The Fountains of Paradise","Victor Gollancz Ltd",TRUE,1,2,0,3.96,21719
+"76",1980,"John Varley","Titan","Berkley Putnam",FALSE,1,1,2,3.94,6722
+"77",1980,"Frederik Pohl","Jem","St. Martin's Press",FALSE,1,1,0,3.57,2347
+"78",1980,"Patricia A. McKillip","Harpist in the Wind","Atheneum Books",FALSE,2,0,0,4.21,6083
+"79",1980,"Thomas Disch","On Wings of Song","The Magazine of Fantasy & Science Fiction",FALSE,1,1,2,3.74,734
+"80",1981,"Joan D. Vinge","The Snow Queen","Dial Press",TRUE,0,1,0,3.96,10159
+"81",1981,"Robert Silverberg","Lord Valentine's Castle","The Magazine of Fantasy & Science Fiction",FALSE,2,0,0,3.88,7278
+"82",1981,"Larry Niven","The Ringworld Engineers","Galileo Magazine of Science & Fiction",FALSE,1,0,0,3.86,24113
+"83",1981,"Frederik Pohl","Beyond the Blue Event Horizon","Del Rey Books",FALSE,0,1,0,3.94,10299
+"84",1981,"John Varley","Wizard","Berkley Putnam",FALSE,0,0,0,4.04,4678
+"85",1982,"C. J. Cherryh","Downbelow Station","DAW Books",TRUE,1,0,0,3.9,10738
+"86",1982,"Gene Wolfe","The Claw of the Conciliator","Timescape Books",FALSE,2,2,0,3.98,8186
+"87",1982,"Julian May","The Many-Colored Land","Houghton Mifflin",FALSE,2,1,0,4.06,9504
+"88",1982,"Clifford D. Simak","Project Pope","Del Rey Books",FALSE,1,0,0,3.65,521
+"89",1982,"John Crowley","Little, Big","Bantam Books",FALSE,0,1,0,3.85,8318
+"90",1983,"Isaac Asimov","Foundation's Edge","Doubleday",TRUE,2,1,0,4.08,52596
+"91",1983,"C. J. Cherryh","The Pride of Chanur","DAW Books",FALSE,1,0,0,3.92,5401
+"92",1983,"Arthur C. Clarke","2010: Odyssey Two","Del Rey Books",FALSE,1,0,0,3.89,41173
+"93",1983,"Robert A. Heinlein","Friday","Holt, Rinehart and Winston",FALSE,1,1,0,3.82,23067
+"94",1983,"Donald Kingsbury","Courtship Rite","Timescape",FALSE,1,0,0,3.98,449
+"95",1983,"Gene Wolfe","The Sword of the Lictor","Timescape",FALSE,2,1,0,4.15,6305
+"96",1984,"David Brin","Startide Rising","Bantam Books",TRUE,2,2,0,4.5,6
+"97",1984,"R. A. MacAvoy","Tea with the Black Dragon","Bantam Books",FALSE,1,1,0,4.03,3741
+"98",1984,"John Varley","Millennium","Berkley Books",FALSE,1,0,0,3.75,2149
+"99",1984,"Anne McCaffrey","Moreta: Dragonlady of Pern","Del Rey Books",FALSE,1,0,0,3.97,23204
+"100",1984,"Isaac Asimov","The Robots of Dawn","Doubleday",FALSE,1,0,0,4.13,29527
+"101",1985,"William Gibson","Neuromancer","Ace Books",TRUE,1,2,1,3.88,204184
+"102",1985,"David R. Palmer","Emergence","Bantam Books",FALSE,1,0,0,4.17,1534
+"103",1985,"Vernor Vinge","The Peace War","Bluejay Books",FALSE,1,0,0,3.95,5313
+"104",1985,"Robert A. Heinlein","Job: A Comedy of Justice","Del Rey Books",FALSE,2,1,0,3.77,14973
+"105",1985,"Larry Niven","The Integral Trees","Del Rey Books",FALSE,2,1,0,3.75,7271
+"106",1986,"Orson Scott Card","Ender's Game","Tor Books",TRUE,1,2,0,4.3,881704
+"107",1986,"C. J. Cherryh","Cuckoo's Egg","DAW Books",FALSE,1,0,0,3.95,1456
+"108",1986,"David Brin","The Postman","Bantam Spectra",FALSE,2,1,2,3.88,26437
+"109",1986,"Larry Niven","Footfall","Del Rey Books",FALSE,1,0,0,3.9,12274
+"110",1986,"Jerry Pournelle","","",FALSE,0,0,0,3.81,1714
+"111",1986,"Greg Bear","Blood Music","Arbor House",FALSE,1,1,1,3.8,8625
+"112",1987,"Orson Scott Card","Speaker for the Dead","Tor Books",TRUE,2,2,1,4.04,184402
+"113",1987,"Bob Shaw","The Ragged Astronauts","Victor Gollancz Ltd",FALSE,1,0,0,3.68,309
+"114",1987,"William Gibson","Count Zero","Asimov's Science Fiction",FALSE,1,1,0,4,36074
+"115",1987,"Vernor Vinge","Marooned in Realtime","Analog Science Fact & Fiction",FALSE,1,0,0,4.08,4314
+"116",1987,"L. Ron Hubbard","Black Genesis","Bridge Publications",FALSE,0,0,0,3.42,1892
+"117",1988,"David Brin","The Uplift War","Bantam Spectra",TRUE,2,1,0,4.06,21112
+"118",1988,"George Alec Effinger","When Gravity Fails","Arbor House",FALSE,1,1,0,3.93,5315
+"119",1988,"Orson Scott Card","Seventh Son","Tor Books",FALSE,2,0,0,3.86,29565
+"120",1988,"Greg Bear","The Forge of God","Tor Books",FALSE,1,1,0,3.86,11369
+"121",1988,"Gene Wolfe","The Urth of the New Sun","Tor Books",FALSE,1,1,0,3.98,4263
+"122",1989,"C. J. Cherryh","Cyteen","Warner Books",TRUE,2,0,0,3.99,8498
+"123",1989,"Orson Scott Card","Red Prophet","Tor Books",FALSE,2,1,0,3.78,17715
+"124",1989,"Lois McMaster Bujold","Falling Free","Analog Science Fact & Fiction",FALSE,1,2,0,3.83,13973
+"125",1989,"Bruce Sterling","Islands in the Net","Arbor House",FALSE,1,0,2,3.66,4335
+"126",1989,"William Gibson","Mona Lisa Overdrive","Victor Gollancz Ltd",FALSE,1,1,0,3.97,28824
+"127",1990,"Dan Simmons","Hyperion","Doubleday",TRUE,2,0,0,4.21,132320
+"128",1990,"George Alec Effinger","A Fire in the Sun","Doubleday",FALSE,1,0,0,4.03,1812
+"129",1990,"Orson Scott Card","Prentice Alvin","Tor Books",FALSE,2,1,0,3.77,15812
+"130",1990,"Poul Anderson","The Boat of a Million Years","Tor Books",FALSE,1,1,0,3.81,2947
+"131",1990,"Sheri S. Tepper","Grass","Doubleday",FALSE,1,0,0,4.04,8270
+"132",1991,"Lois McMaster Bujold","The Vor Game","Baen Books",TRUE,1,0,0,4.28,16761
+"133",1991,"David Brin","Earth","Bantam Spectra",FALSE,1,0,0,3.9,5999
+"134",1991,"Dan Simmons","The Fall of Hyperion","Doubleday",FALSE,2,1,0,4.18,69838
+"135",1991,"Michael P. Kube-McDowell","The Quiet Pools","Ace Books",FALSE,1,0,0,3.67,81
+"136",1991,"Greg Bear","Queen of Angels","Warner Questar",FALSE,1,0,1,3.59,2413
+"137",1992,"Lois McMaster Bujold","Barrayar","Analog Science Fact & Fiction",TRUE,2,1,0,4.31,19415
+"138",1992,"Emma Bull","Bone Dance","Ace Books",FALSE,1,1,0,3.85,1434
+"139",1992,"Anne McCaffrey","All the Weyrs of Pern","Del Rey Books",FALSE,1,0,0,4.15,20708
+"140",1992,"Joan D. Vinge","The Summer Queen","Warner Questar",FALSE,1,0,0,4.03,2797
+"141",1992,"Orson Scott Card","Xenocide","Tor Books",FALSE,1,0,0,3.77,116091
+"142",1992,"Michael Swanwick","Stations of the Tide","Asimov's Science Fiction",FALSE,1,2,1,3.73,1894
+"143",1993,"Vernor Vinge","A Fire Upon the Deep","Tor Books",TRUE,1,1,1,4.13,41010
+"144",1993,"Connie Willis","Doomsday Book","Bantam Spectra",TRUE,2,2,0,4.03,37042
+"145",1993,"Kim Stanley Robinson","Red Mars","HarperCollins",FALSE,1,2,0,3.84,50432
+"146",1993,"Maureen F. McHugh","China Mountain Zhang","Tor Books",FALSE,1,1,0,3.93,2921
+"147",1993,"John Varley","Steel Beach","Ace Books/Putnam Publishing Group",FALSE,1,0,0,3.98,2540
+"148",1994,"Kim Stanley Robinson","Green Mars","HarperCollins",TRUE,2,1,0,3.91,26545
+"149",1994,"Greg Bear","Moving Mars","Tor Books",FALSE,1,2,1,3.82,6103
+"150",1994,"Nancy Kress","Beggars in Spain","Morrow AvoNova",FALSE,1,1,1,3.93,6031
+"151",1994,"David Brin","Glory Season","Bantam Spectra",FALSE,1,0,0,3.73,2946
+"152",1994,"William Gibson","Virtual Light","Bantam Spectra",FALSE,1,0,0,3.84,18546
+"153",1995,"Lois McMaster Bujold","Mirror Dance","Baen Books",TRUE,2,0,0,4.32,15480
+"154",1995,"John Barnes","Mother of Storms","Tor Books",FALSE,1,1,0,3.76,1268
+"155",1995,"Nancy Kress","Beggars and Choosers","Tor Books",FALSE,1,1,0,3.84,2133
+"156",1995,"Michael Bishop","Brittle Innings","Bantam Books",FALSE,2,0,1,3.96,313
+"157",1995,"James K. Morrow","Towing Jehovah","Harcourt Brace",FALSE,1,1,0,3.9,2293
+"158",1996,"Neal Stephenson","The Diamond Age","Bantam Spectra",TRUE,2,1,1,4.19,67180
+"159",1996,"Stephen Baxter","The Time Ships","HarperPrism",FALSE,1,0,2,3.94,4447
+"160",1996,"David Brin","Brightness Reef","Bantam Books",FALSE,1,0,0,3.89,8628
+"161",1996,"Robert J. Sawyer","The Terminal Experiment (also known as Hobson's Choice)","Analog Science Fiction and Fact",FALSE,1,2,0,3.74,3315
+"162",1996,"Connie Willis","Remake","Bantam Spectra",FALSE,0,0,0,3.36,1513
+"163",1997,"Kim Stanley Robinson","Blue Mars","HarperCollins Voyager",TRUE,2,0,1,3.92,21125
+"164",1997,"Lois McMaster Bujold","Memory","Baen Books",FALSE,1,1,1,4.44,12338
+"165",1997,"Elizabeth Moon","Remnant Population","Baen Books",FALSE,1,0,0,4.05,3049
+"166",1997,"Robert J. Sawyer","Starplex","Analog Science Fiction and Fact",FALSE,0,1,0,3.75,1237
+"167",1997,"Bruce Sterling","Holy Fire","Bantam Spectra",FALSE,1,0,0,3.71,2104
+"168",1998,"Joe Haldeman","Forever Peace","Ace Books",TRUE,1,2,2,3.73,14802
+"169",1998,"Walter Jon Williams","City on Fire","HarperPrism",FALSE,1,1,0,3.97,637
+"170",1998,"Dan Simmons","The Rise of Endymion","Bantam Spectra",FALSE,2,0,0,4.16,33334
+"171",1998,"Robert J. Sawyer","Frameshift","Tor Books",FALSE,0,0,0,3.74,1201
+"172",1998,"Michael Swanwick","Jack Faust","Avon Publications",FALSE,1,0,0,3.57,475
+"173",1999,"Connie Willis","To Say Nothing of the Dog","Bantam Spectra",TRUE,2,1,0,4.13,25891
+"174",1999,"Mary Doria Russell","Children of God","Villard Books",FALSE,1,0,0,4.05,14125
+"175",1999,"Robert Charles Wilson","Darwinia","Tor Books",FALSE,1,0,0,3.36,2966
+"176",1999,"Bruce Sterling","Distraction","Bantam Spectra",FALSE,1,0,1,3.73,1762
+"177",1999,"Robert J. Sawyer","Factoring Humanity","Tor Books",FALSE,0,0,0,3.78,2668
+"178",2000,"Vernor Vinge","A Deepness in the Sky","Tor Books",TRUE,1,1,2,4.32,23717
+"179",2000,"Lois McMaster Bujold","A Civil Campaign","Baen Books",FALSE,1,1,0,4.43,12917
+"180",2000,"Neal Stephenson","Cryptonomicon","Avon Publications",FALSE,2,0,0,4.25,82128
+"181",2000,"Greg Bear","Darwin's Radio","HarperCollins",FALSE,1,2,1,3.68,10855
+"182",2000,"J. K. Rowling","Harry Potter and the Prisoner of Azkaban","Bloomsbury Publishing",FALSE,2,0,0,4.53,1993312
+"183",2001,"J. K. Rowling","Harry Potter and the Goblet of Fire","Bloomsbury Publishing",TRUE,1,0,0,4.53,1890652
+"184",2001,"George R. R. Martin","A Storm of Swords","HarperCollins Voyager",FALSE,2,1,0,4.54,533052
+"185",2001,"Robert J. Sawyer","Calculating God","Tor Books",FALSE,0,0,1,3.84,7262
+"186",2001,"Ken MacLeod","The Sky Road","Tor Books",FALSE,1,0,0,3.86,1110
+"187",2001,"Nalo Hopkinson","Midnight Robber","Warner Aspect",FALSE,1,1,0,3.89,1667
+"188",2002,"Neil Gaiman","American Gods","William Morrow and Company",TRUE,2,2,0,4.11,530193
+"189",2002,"Lois McMaster Bujold","The Curse of Chalion","Eos",FALSE,1,0,0,4.16,24432
+"190",2002,"Connie Willis","Passage","Bantam Books",FALSE,2,1,1,3.68,7197
+"191",2002,"China Miéville","Perdido Street Station","Macmillan Publishers",FALSE,1,1,0,3.96,46904
+"192",2002,"Robert Charles Wilson","The Chronoliths","Tor Books",FALSE,1,0,2,3.66,4101
+"193",2002,"Ken MacLeod","Cosmonaut Keep","Orbit Books",FALSE,1,0,0,3.6,2815
+"194",2003,"Robert J. Sawyer","Hominids","Analog Science Fiction and Fact",TRUE,0,0,1,3.77,9866
+"195",2003,"David Brin","Kiln People (also known as Kil'n People)","Tor Books",FALSE,1,0,1,3.83,5029
+"196",2003,"Michael Swanwick","Bones of the Earth","Eos",FALSE,1,1,1,3.48,1286
+"197",2003,"China Miéville","The Scar","Del Rey Books",FALSE,2,0,0,4.15,23492
+"198",2003,"Kim Stanley Robinson","The Years of Rice and Salt","Bantam Books",FALSE,2,0,0,3.72,8567
+"199",2004,"Lois McMaster Bujold","Paladin of Souls","Eos",TRUE,2,2,0,4.13,17577
+"200",2004,"Dan Simmons","Ilium","Eos",FALSE,2,0,0,4.01,21453
+"201",2004,"Charles Stross","Singularity Sky","Ace Books",FALSE,1,0,0,3.81,11266
+"202",2004,"Robert Charles Wilson","Blind Lake","Tor Books",FALSE,1,0,0,3.66,2329
+"203",2004,"Robert J. Sawyer","Humans","Tor Books",FALSE,0,0,0,3.81,4648
+"204",2005,"Susanna Clarke","Jonathan Strange & Mr Norrell","Bloomsbury Publishing",TRUE,1,1,0,3.8,156440
+"205",2005,"Ian McDonald","River of Gods","Simon & Schuster",FALSE,1,0,0,3.92,4692
+"206",2005,"Iain M. Banks","The Algebraist","Orbit Books",FALSE,1,0,0,3.99,14893
+"207",2005,"Charles Stross","Iron Sunrise","Ace Books",FALSE,1,0,0,3.97,7564
+"208",2005,"China Miéville","Iron Council","Del Rey Books",FALSE,2,0,0,3.69,11252
+"209",2006,"Robert Charles Wilson","Spin","Tor Books",TRUE,1,0,1,4.01,28386
+"210",2006,"Ken MacLeod","Learning the World","Orbit Books",FALSE,1,0,1,3.7,1605
+"211",2006,"George R. R. Martin","A Feast for Crows","Voyager Books",FALSE,1,0,0,4.1,486445
+"212",2006,"John Scalzi","Old Man's War","Tor Books",FALSE,1,0,0,4.23,110833
+"213",2006,"Charles Stross","Accelerando","Ace Books",FALSE,2,0,1,3.87,15911
+"214",2007,"Vernor Vinge","Rainbows End","Tor Books",TRUE,2,0,1,3.76,13397
+"215",2007,"Charles Stross","Glasshouse","Ace Books",FALSE,1,0,1,3.87,9323
+"216",2007,"Naomi Novik","His Majesty's Dragon","Voyager Books",FALSE,0,0,0,4.05,55248
+"217",2007,"Michael F. Flynn","Eifelheim","Tor Books",FALSE,1,0,0,3.72,2885
+"218",2007,"Peter Watts","Blindsight","Tor Books",FALSE,1,0,1,3.99,17822
+"219",2008,"Michael Chabon","The Yiddish Policemen's Union","HarperCollins",TRUE,2,2,1,3.69,52742
+"220",2008,"John Scalzi","The Last Colony","Tor Books",FALSE,1,0,0,4.03,36470
+"221",2008,"Charles Stross","Halting State","Ace Books",FALSE,1,0,0,3.79,10400
+"222",2008,"Robert J. Sawyer","Rollback","Tor Books",FALSE,0,0,1,3.75,3026
+"223",2008,"Ian McDonald","Brasyl","Pyr",FALSE,1,1,1,3.66,2473
+"224",2009,"Neil Gaiman","The Graveyard Book","HarperCollins",TRUE,0,0,0,4.12,330645
+"225",2009,"Cory Doctorow","Little Brother","Tor Books",FALSE,0,1,2,3.94,40154
+"226",2009,"Neal Stephenson","Anathem","Morrow",FALSE,2,0,1,4.18,50104
+"227",2009,"Charles Stross","Saturn's Children","Ace Books",FALSE,1,0,0,3.56,6118
+"228",2009,"John Scalzi","Zoe's Tale","Tor Books",FALSE,0,0,0,3.73,20016
+"229",2010,"Paolo Bacigalupi","The Windup Girl","Night Shade Books",TRUE,1,2,2,3.74,50567
+"230",2010,"China Miéville","The City & the City","Del Rey Books",TRUE,2,1,1,3.91,37938
+"231",2010,"Cherie Priest","Boneshaker","Tor Books",FALSE,2,1,0,3.5,27921
+"232",2010,"Robert J. Sawyer","Wake","Ace Books",FALSE,0,0,0,3.8,6779
+"233",2010,"Catherynne M. Valente","Palimpsest","Bantam Spectra",FALSE,1,0,0,3.66,3941
+"234",2010,"Robert Charles Wilson","Julian Comstock: A Story of 22nd-Century America","Tor Books",FALSE,1,0,1,3.55,2685
+"235",2011,"Connie Willis","Blackout/All Clear","Spectra Books",TRUE,2,2,1,3.83,16862
+"236",2011,"Lois McMaster Bujold","Cryoburn","Baen Books",FALSE,1,0,0,4.05,10535
+"237",2011,"Ian McDonald","The Dervish House","Gollancz / Pyr",FALSE,1,0,2,3.84,3894
+"238",2011,"Mira Grant","Feed","Orbit Books",FALSE,1,0,0,3.86,42315
+"239",2011,"N. K. Jemisin","The Hundred Thousand Kingdoms","Orbit Books",FALSE,2,1,0,3.81,33157
+"240",2012,"Jo Walton","Among Others","Tor Books",TRUE,1,2,0,3.68,17958
+"241",2012,"George R. R. Martin","A Dance with Dragons","Bantam Spectra",FALSE,2,0,0,4.31,429638
+"242",2012,"Mira Grant","Deadline","Orbit Books",FALSE,1,0,0,4.1,20345
+"243",2012,"China Miéville","Embassytown","Macmillan Publishers / Del Rey Books",FALSE,2,1,1,3.86,20772
+"244",2012,"James S. A. Corey","Leviathan Wakes","Orbit Books",FALSE,1,0,0,4.2,85400
+"245",2013,"John Scalzi","Redshirts","Tor Books",TRUE,2,0,0,3.84,63505
+"246",2013,"Kim Stanley Robinson","2312","Orbit Books",FALSE,1,2,1,3.43,12230
+"247",2013,"Mira Grant","Blackout","Orbit Books",FALSE,0,0,0,4.11,16999
+"248",2013,"Lois McMaster Bujold","Captain Vorpatril's Alliance","Baen Books",FALSE,1,0,0,4.19,10222
+"249",2013,"Saladin Ahmed","Throne of the Crescent Moon","DAW Books",FALSE,2,1,0,3.63,8549
+"250",2014,"Ann Leckie","Ancillary Justice","Orbit Books",TRUE,1,2,1,3.97,48981
+"251",2014,"Charles Stross","Neptune's Brood","Ace Books",FALSE,1,0,1,3.83,4510
+"252",2014,"Mira Grant","Parasite","Orbit Books",FALSE,0,0,0,3.65,11194
+"253",2014,"Larry Correia","Warbound","Baen Books",FALSE,0,0,0,4.41,6047
+"254",2014,"Robert Jordan","The Wheel of Time[Note 3]","Tor Books",FALSE,0,0,0,4.23,166060
+"255",2014,"Brandon Sanderson","","",FALSE,0,0,0,4.43,243243
+"256",2015,"Cixin Liu","The Three-Body Problem","Tor Books",TRUE,1,1,1,4.01,46180
+"257",2015,"Katherine Addison","The Goblin Emperor","Tor Books",FALSE,2,1,0,4.05,14337
+"258",2015,"Kevin J. Anderson","The Dark Between the Stars","Tor Books",FALSE,0,0,0,3.65,1375
+"259",2015,"Jim Butcher","Skin Game","Roc Books",FALSE,0,0,0,4.56,52765
+"260",2015,"Ann Leckie","Ancillary Sword","Orbit Books",FALSE,2,1,0,4.03,24637
+"261",2016,"N. K. Jemisin","The Fifth Season","Orbit Books",TRUE,1,1,0,4.3,29204
+"262",2016,"Naomi Novik","Uprooted","Del Rey",FALSE,2,2,0,4.12,79403
+"263",2016,"Ann Leckie","Ancillary Mercy","Orbit Books",FALSE,2,1,0,4.2,18345
+"264",2016,"Neal Stephenson","Seveneves","William Morrow and Company",FALSE,1,0,1,3.98,58586
+"265",2016,"Jim Butcher","The Cinder Spires: The Aeronaut's Windlass","Roc Books",FALSE,0,0,0,4.18,26479
+"266",2017,"N. K. Jemisin","The Obelisk Gate","Orbit Books",TRUE,1,1,0,4.36,15030
+"267",2017,"Charlie Jane Anders","All the Birds in the Sky","Tor Books",FALSE,2,2,0,3.58,19467
+"268",2017,"Becky Chambers","A Closed and Common Orbit","Hodder & Stoughton",FALSE,0,0,0,4.38,8647
+"269",2017,"Cixin Liu","Death's End","Tor Books",FALSE,2,0,0,4.45,11649
+"270",2017,"Yoon Ha Lee","Ninefox Gambit","Solaris Books",FALSE,2,1,0,3.92,4849
+"271",2017,"Ada Palmer","Too Like the Lightning","Tor Books",FALSE,0,0,0,3.88,3331
