@@ -1,1 +1,0 @@
-See the Prediction and Analysis.md file for a demo of how I performed my predictions.
