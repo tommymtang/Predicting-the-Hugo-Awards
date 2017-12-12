@@ -27,3 +27,5 @@ I collected tables of nominees of winners for:
 * the Hugo Awards
 
 And next, for each title in the Hugo Awards table, I found its Goodreads average rating count and searched through the other awards tables to mark down whether it was nominated for the other awards, and if so, whether it had won.
+
+# Prediction and Analysis
