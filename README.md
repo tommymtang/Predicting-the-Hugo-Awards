@@ -20,4 +20,10 @@ For a structured rundown of how I scraped and cleaned the data, see [this docume
 
 For details on the scripts and functions I used, see this [folder of scripts] (https://github.com/tommymtang/Predicting-the-Hugo-Awards/tree/master/Scripts).
 
-Initially the data was collected like this.
+I collected tables of nominees of winners for: 
+* the Locus Awards
+* the Campbell Awards
+* the Nebula Awards 
+* the Hugo Awards
+
+And next, for each title in the Hugo Awards table, I found its Goodreads average rating count and searched through the other awards tables to mark down whether it was nominated for the other awards, and if so, whether it had won.
