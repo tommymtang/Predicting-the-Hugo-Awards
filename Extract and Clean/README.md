@@ -1,1 +1,1 @@
-
+See the Extract and Clean.md document for a demo of how I extracted and cleaned the data. 

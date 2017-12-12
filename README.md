@@ -14,10 +14,10 @@ Below is a brief directory. If you want to see my results directly, you can see 
 Enjoy!
 
 # Dataset
-The data used for this project was scraped from Wikipedia, an old Locus Awards archive, and Goodreads.com. The data is collected in [this folder](ADD DATASET FOLDER).
+The data used for this project was scraped from Wikipedia, an old Locus Awards archive, and Goodreads.com. The data is collected in [this folder](https://github.com/tommymtang/Predicting-the-Hugo-Awards/tree/master/Dataset).
 
-For a structured rundown of how I scraped and cleaned the data, see this document. 
+For a structured rundown of how I scraped and cleaned the data, see [this document](https://github.com/tommymtang/Predicting-the-Hugo-Awards/blob/master/Extract%20and%20Clean/Extract%20and%20Clean.md). 
 
-For details on the scripts and functions I used, see this script here. 
+For details on the scripts and functions I used, see this [folder of scripts] (https://github.com/tommymtang/Predicting-the-Hugo-Awards/tree/master/Scripts).
 
 Initially the data was collected like this.

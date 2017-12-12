@@ -1,0 +1,122 @@
+---
+title: "Prediction and Analysis"
+author: "Tommy Tang"
+date: "November 20, 2017"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Prediction and Analysis
+
+Now that we have clean data. Let us begin implementing the prediction and analysis for the Hugo Awards. Scripts and detailed explanations can be found in the analysis.R script. We will build a model and test our predictor on the most recent six years.
+
+```{r, include = FALSE}
+library(RCurl)
+scriptURL <- "https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Scripts/analysis.R"
+eval(parse(text = getURL(scriptURL)))
+```
+
+First let us load the data from the HugoComplete.
+```{r, include = FALSE}
+data <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/HugosPolished.csv"))
+```
+
+Now, if we check the beginning of the data: 
+```{r}
+head(data, 10)
+```
+we see that there are quite a few zeros for awards. What gives? Well, the Hugos are the oldest awards and began before any of the other ones. This will unfairly weight those awards with smaller weight - this is suboptimal, considering that the voting committees will be similar and the Locus Awards were created with the explicit goal of influencing the Hugos. These were split into the Locus SF and Locus Fantasy awards in 1978.
+
+Thus we will take a recent sample of the data: 
+```{r}
+data <- data[65:271,]
+```
+
+Now we break up our data in the training and test sets. The test set will be the winner data from 2012-2017. Since the earliest entry in which the year is 2012 is begins at 176, and the remaining data has 208 entries: 
+
+```{r}
+which(data$Year == 2012)
+length(data$Year)
+```
+
+we will want to subset accordingly:
+```{r, echo = FALSE}
+training = data[1:175, ]
+test = data[176:207, ]
+```
+
+The data broken up successfully, we now build our model. There are between 5-6 nominees every year, so if we can get more than one guessed successfully, we will be a bit happy. 
+
+First, let's try a Naive Bayes predictor (maximum likelihood). 
+
+
+
+A quick and dirty random forest: 
+```{r}
+fit <- randomForest(as.factor(Winner) ~ Locus.data + Nebula.data + Campbell.data + Goodreads.Avg.Rating, data = training, importance = TRUE, ntree = 2000)
+test$probabilities <- predict(fit, test, type = "prob")[,2]
+pred <- predictWinners(test)
+```
+Let's compare: 
+```{r}
+correctGuesses <- as.logical(pred) * test$Winner
+sum(correctGuesses)
+```
+
+Now, this is better than a random guess, but let's try to do better. In particular, we realize that we have not used information about the authors. 
+
+In basketball and in the Oscars, there is this concept of the make-up call. That is, if a player or filmmaker or actor is snubbed one year, they will be awarded at another point with a call in their favor. 
+
+That is, if an author has received many nominations without a win, will they be more likely to receive a win in their subsequent nomination? It seems useful, then to consider the awards for "Best Short Story", "Best Novelette", and "Best Novella" as well, since there will always be a bit of behind-the-scenes networking and discussions that we are not privy to. 
+
+All this to say, it will be useful to conglomerate the awards data by author.
+
+We will add the following pieces of data to each title: "Number of Nominations Since Previous Win"; "Previous Best Novel Nominations; "Previous Short Story, Novella, or Novelette Nominations". The first category is limited to the Hugos, whereas we will not limit the latter two counts. 
+
+Here we make use of the the getNoms function from analysis.R. 
+```{r, include = FALSE}
+training$Nominations.Since.Win <- getNoms(training)
+test$Nominations.Since.Win <- getNoms(test)
+```
+
+Check it: 
+```{r}
+str(training)
+```
+
+Let us run another randomForest prediction. 
+```{r}
+fitBoosted <- randomForest(as.factor(Winner) ~ Locus.data + Nebula.data + Campbell.data + Goodreads.Avg.Rating + Nominations.Since.Win, data = training, importance = TRUE, ntree = 2000)
+test$probabilities <- predict(fitBoosted, test, type = "prob")[,2]
+predBoosted <- predictWinners(test)
+```
+
+Now:
+```{r}
+correctGuesses <- as.logical(predBoosted) * test$Winner
+sum(correctGuesses)
+```
+
+Not as good as we're hoping. But let's take a look:
+```{r}
+varImpPlot(fitBoosted)
+```
+
+Aha! Seems that the nominations since win factor we added was pretty important. The Nebula and the Goodreads Avg Rating are as well. (Thank god that the features we engineered were relatively important.) 
+
+Let's try the randomForest again, but without the Locus and Campbell data.
+
+```{r}
+fitAdjusted <- randomForest(as.factor(Winner) ~ Nebula.data + Goodreads.Avg.Rating + Nominations.Since.Win, data = training, importance = TRUE, ntree = 2000)
+test$probabilities <- predict(fitAdjusted, test, type = "prob")[,2]
+predAdjusted <- predictWinners(test)
+```
+Let's see, now: 
+```{r}
+sum(predAdjusted * test$Winner)
+```
+
+Voila!

@@ -1,0 +1,139 @@
+---
+  title: "Extract-and-Clean"
+author: "Tommy Tang"
+date: "November 6, 2017"
+output: github_document
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Extract and Clean
+
+This file describes how I downloaded and prepared data for analysis.
+
+Recall that the five datasets come from the Locus Awards, the Campbell Awards, the Hugo Awards, the Nebula Awards, and Goodreads data.
+
+## Wiki Data
+
+Here we handle the tables of nominations downloaded from Wikipedia - the Locus and Goodreads data are handled in the following sections, since both require a different set of scraping and cleaning scripts.
+After downloading and storing the data from Wikipedia (see here), the data still needed to be edited and wrangled into proper format for our data. 
+
+
+First, we load our data:
+  ```{r}
+Campbell <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/Campbell.csv"))
+Nebula <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/Nebula%20nominees.csv"))
+Hugo <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/Hugo%20nominees.csv"))
+```
+These three are tabulated very similarly. Let's take a look:
+```{r}
+head(Nebula)
+```
+
+There are two main issues with these data. The first is that not every title has a year. The second is that for ease of use, we would like an additional column indicating whether the title had won the award in question. (Currently, the winner is indicated with an asterisk next to the winning author's name.)
+
+We do this with the fillYear.R and fillWinners.R scripts from prep-Data.R.
+```{r, include = FALSE}
+library(RCurl)
+scriptURL <- "https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Scripts/prep-Data.R"
+eval(parse(text = getURL(scriptURL)))
+```
+```{r}
+Nebula$Year <- fillYear(Nebula$Year)
+Nebula$Winners <- winners(Nebula)
+
+Campbell$Year <- fillYear(Campbell$Year)
+Campbell$Winners <- winners(Campbell)
+
+Hugo$Year <- fillYear(Hugo$Year)
+Hugo$Winners <- winners(Hugo)
+```
+
+Now our data looks like 
+```{r}
+head(Nebula)
+```
+
+## Locus Data
+The Locus Awards were a bit different. For one, the full lists of nominees and winners were not on Wikipedia, and so I had to extract them year by year from this website. 
+
+```{r, include = FALSE}
+Locus <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/Locus%20Finalists%20and%20Winners.csv"))
+```
+Now, as you can see, the formatting is a bit different:
+  ```{r}
+head(Locus)
+```
+
+The prep-Data.R scripts contain the specific functions I used and a more in-depth description of the wrangling I performed for the Locus Data sets. 
+Now done with the awards, let us add data to our Hugo awards, using prep-Data.R
+```{r}
+Hugo$Locus.data <- sapply(Hugo$Title, searchTitle, Award = Locus)
+Hugo$Nebula.data <- sapply(Hugo$Title, searchTitle, Award = Nebula)
+Hugo$Campbell.data <- sapply(Hugo$Title, searchTitle, Award = Campbell)
+
+```
+Our Hugo dataset now looks like this:
+  ```{r}
+head(Hugo)
+```
+A bit clunky, but don't worry, we'll get rid of the earlier years anyways. 
+
+## Goodreads Data
+Here we describe briefly what we do to obtain the Goodreads ratings data using the Goodreads API. Specific functions and scripts can be found in prep-Data.R script. 
+
+The script explains this in greater detail, but here I will outline the method and the main difficulties. I'm going to load my key and secret from a local configuration file, though you will want to put your own. 
+```{r, include = FALSE} 
+source('~/R/Hugo-Predictions/Scripts/config.R')
+```
+
+The main workhorse is the function that searches Goodreads using a title and author (if given). The function cycles through every book on the Hugo nominations list and attaches the correct information for number of ratings and average rating. 
+
+There are two main searching challenges. 
+
+The first occurs when we search a very popular title using both title and author. For example, if one searches for Ursula Le Guin's "Left Hand of Darkness" with the query: "Ursula K. Le Guin, Left Hand of Darkness", the first result that pops up is in fact Harold Bloom's criticism book: "Ursula K. Le Guin's Left Hand of Darkness". 
+
+Now, we can correct for this by searching for just title, storing the result, and picking the one with more hits. 
+
+Unfortunately just searching the title and using volume of hits is precarious. For example, if one searches for Poul Anderson's "Fire Time", the most popular search is in fact James Baldwin's masterpiece: "The Fire Next Time." 
+
+We can engineer more sophisticated methods: What about when we take top the relevant results for title and author searching, and we take the one with the most number of ratings?, etc. 
+
+This is what I chose, using the function searchRating from the prep-Data.R script. For example, if I run it on Ursula Le Guin's Left Hand of Darkness. 
+
+```{r}
+
+myTitle <- "Left Hand of Darkness"
+myAuthor <- "Ursula K. Le Guin"
+searchRating(myTitle, myAuthor)
+
+```
+
+So we run this through the entries in our current data frame for Hugo - here we make a pit stop for weird titles in the document - , and collect the results. 
+```{r}
+ratings <- runGoodreadsRatings(272)
+Hugo$Goodreads.Number.of.Ratings <- unlist(ratings$numRatings)
+Hugo$Goodreads.Avg.Rating <- unlist(ratings$avgRating)
+str(Hugo)
+```
+
+Let's clean the author names with removeWinnerAsterisk. 
+
+```{r, include = FALSE}
+Hugo$Author <- removeWinnerAsterisk(Hugo$Author)
+```
+
+This we write to csv as "HugosCompletePrepolished.csv". 
+We say prepolished because there are a few errors: 
+
+```{r}
+sum(is.na(unlist(ratings$numRatings)))
+```
+
+Luckily, this is not too big, and we are guaranteed that unlike the other methods, this manner of searchRating will result in either a correct search or a missing value. (The other methods may give hard-to-detect incorrect answers.) 
+
+Thus we fill in by hand the missing values and save that as "HugosComplete.csv"
+
+
