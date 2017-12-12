@@ -45,7 +45,7 @@ predictWinners <- function(data) { # data assumed to be from roughImplementation
 # current year. Therefore, it counts the current year's nomination (if any) as a nomination, 
 # but will not output 0 if the author also won that same year.
 
-hugosURL <- "https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/HugosPolished.csv"
+hugosURL <- "https://raw.githubusercontent.com/tommymtang/Predicting-the-Hugo-Awards/master/Dataset/HugosPolished.csv"
 nomsWithoutWin <- function(author, year, data = read.csv(url(hugosURL))) {
   id <- which(data$Year == year)[length(which(data$Year == year))]
   found <- FALSE

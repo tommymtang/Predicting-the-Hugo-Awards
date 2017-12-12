@@ -1,5 +1,5 @@
 ---
-  title: "Extract-and-Clean"
+title: "Extract-and-Clean"
 author: "Tommy Tang"
 date: "November 6, 2017"
 output: github_document
@@ -23,9 +23,9 @@ After downloading and storing the data from Wikipedia (see here), the data still
 
 First, we load our data:
   ```{r}
-Campbell <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/Campbell.csv"))
-Nebula <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/Nebula%20nominees.csv"))
-Hugo <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/Hugo%20nominees.csv"))
+Campbell <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Predicting-the-Hugo-Awards/master/Dataset/Campbell.csv"))
+Nebula <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Predicting-the-Hugo-Awards/master/Dataset/Nebula%20nominees.csv"))
+Hugo <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Predicting-the-Hugo-Awards/master/Dataset/Hugo%20nominees.csv"))
 ```
 These three are tabulated very similarly. Let's take a look:
 ```{r}
@@ -37,7 +37,7 @@ There are two main issues with these data. The first is that not every title has
 We do this with the fillYear.R and fillWinners.R scripts from prep-Data.R.
 ```{r, include = FALSE}
 library(RCurl)
-scriptURL <- "https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Scripts/prep-Data.R"
+scriptURL <- "https://raw.githubusercontent.com/tommymtang/Predicting-the-Hugo-Awards/master/Scripts/prep-Data.R"
 eval(parse(text = getURL(scriptURL)))
 ```
 ```{r}
@@ -60,7 +60,7 @@ head(Nebula)
 The Locus Awards were a bit different. For one, the full lists of nominees and winners were not on Wikipedia, and so I had to extract them year by year from this website. 
 
 ```{r, include = FALSE}
-Locus <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/Locus%20Finalists%20and%20Winners.csv"))
+Locus <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Predicting-the-Hugo-Awards/master/Dataset/Locus%20Finalists%20and%20Winners.csv"))
 ```
 Now, as you can see, the formatting is a bit different:
   ```{r}
@@ -86,7 +86,7 @@ Here we describe briefly what we do to obtain the Goodreads ratings data using t
 
 The script explains this in greater detail, but here I will outline the method and the main difficulties. I'm going to load my key and secret from a local configuration file, though you will want to put your own. 
 ```{r, include = FALSE} 
-source('~/R/Hugo-Predictions/Scripts/config.R')
+source('~/R/Predicting-the-Hugo-Awards/Scripts/config.R')
 ```
 
 The main workhorse is the function that searches Goodreads using a title and author (if given). The function cycles through every book on the Hugo nominations list and attaches the correct information for number of ratings and average rating. 

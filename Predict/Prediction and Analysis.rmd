@@ -15,13 +15,13 @@ Now that we have clean data. Let us begin implementing the prediction and analys
 
 ```{r, include = FALSE}
 library(RCurl)
-scriptURL <- "https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Scripts/analysis.R"
+scriptURL <- "https://raw.githubusercontent.com/tommymtang/Predicting-the-Hugo-Awards/master/Scripts/analysis.R"
 eval(parse(text = getURL(scriptURL)))
 ```
 
 First let us load the data from the HugoComplete.
 ```{r, include = FALSE}
-data <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Hugo-Predictions/master/Dataset/HugosPolished.csv"))
+data <- read.csv(url("https://raw.githubusercontent.com/tommymtang/Predicting-the-Hugo-Awards/master/Dataset/HugosPolished.csv"))
 ```
 
 Now, if we check the beginning of the data: 

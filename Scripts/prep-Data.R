@@ -56,8 +56,6 @@ searchTitle <- function(book, Award) {
   }
 }
 
-# Functions to use in conjunction with Goodreads API
-key <- "GlnAEoDgbhhbNhf7C1fw"
 
 # Given title and author, returns a vector consisting of the total number of ratings
 # and the average rating score.
